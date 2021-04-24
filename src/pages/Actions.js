@@ -1,12 +1,8 @@
 import axios from "axios";
 import React, { useState } from "react";
 // --------------------------------------
-let uri;
-if (process.env.NODE_ENV === "development") {
-	uri = "http://localhost:3007";
-} else {
-	uri = "https://bapibank.herokuapp.com";
-}
+
+const uri = "https://bapibank.herokuapp.com";
 
 const Actions = () => {
 	// ----------states--------------------
