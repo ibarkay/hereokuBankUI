@@ -2,7 +2,8 @@ import axios from "axios";
 import React, { useState } from "react";
 // --------------------------------------
 
-const uri = "https://bapibank.herokuapp.com";
+// const uri = "https://bapibank.herokuapp.com";
+const uri = "http://localhost:3007";
 
 const Actions = () => {
 	// ----------states--------------------
